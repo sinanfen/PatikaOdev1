@@ -2,14 +2,14 @@ package data;
 
 import java.math.BigDecimal;
 
-public class BaseEntity {
+public class Building {
 
     private BigDecimal price;
     private int squareMeters;
     private int room;
     private int saloon;
 
-    public BaseEntity(BigDecimal price, int squareMeters, int room, int saloon) {
+    public Building(BigDecimal price, int squareMeters, int room, int saloon) {
         this.price = price;
         this.squareMeters = squareMeters;
         this.room = room;
